@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "genie_clear.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
