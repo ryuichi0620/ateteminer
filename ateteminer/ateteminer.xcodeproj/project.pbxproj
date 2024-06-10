@@ -18,6 +18,7 @@
 		959E6FC92C172851003EF5D2 /* ateteminerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FC82C172851003EF5D2 /* ateteminerUITestsLaunchTests.swift */; };
 		959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FD62C172A94003EF5D2 /* extension+Fonts.swift */; };
 		959E6FDA2C172B57003EF5D2 /* DotGothic16-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */; };
+		959E6FE02C1739DD003EF5D2 /* extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		959E6FD62C172A94003EF5D2 /* extension+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Fonts.swift"; sourceTree = "<group>"; };
 		959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DotGothic16-Regular.ttf"; sourceTree = "<group>"; };
 		959E6FDE2C173018003EF5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Image.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				959E6FD62C172A94003EF5D2 /* extension+Fonts.swift */,
+				959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				959E6FB02C172851003EF5D2 /* Persistence.swift in Sources */,
 				959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */,
 				959E6FB32C172851003EF5D2 /* ateteminer.xcdatamodeld in Sources */,
+				959E6FE02C1739DD003EF5D2 /* extension+Image.swift in Sources */,
 				959E6FA92C17284F003EF5D2 /* ContentView.swift in Sources */,
 				959E6FA72C17284F003EF5D2 /* ateteminerApp.swift in Sources */,
 			);
