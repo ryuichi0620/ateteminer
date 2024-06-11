@@ -13,7 +13,8 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Image(.genie, bundle: nil)
+            Image.genie
+                .padding(.horizontal, 20)
         }
     }
     

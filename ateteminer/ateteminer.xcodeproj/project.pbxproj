@@ -110,7 +110,6 @@
 				959E6FAF2C172851003EF5D2 /* Persistence.swift */,
 				959E6FD82C172B39003EF5D2 /* Resources */,
 				959E6FD52C172A80003EF5D2 /* extension */,
-				959E6FB12C172851003EF5D2 /* ateteminer.xcdatamodeld */,
 				959E6FAC2C172851003EF5D2 /* Preview Content */,
 			);
 			path = ateteminer;
@@ -156,6 +155,7 @@
 				959E6FDE2C173018003EF5D2 /* Info.plist */,
 				959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */,
 				959E6FAA2C172851003EF5D2 /* Assets.xcassets */,
+				959E6FB12C172851003EF5D2 /* ateteminer.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
