@@ -9,7 +9,16 @@ import Foundation
 import SwiftUI
 
 extension Image {
+    
     static var genie: Image {
         Image(uiImage: UIImage(named: "genie") ?? UIImage())
+    }
+    
+    static var showText: Image {
+        Image(uiImage: UIImage(named: "showText") ?? UIImage())
+    }
+    
+    static var inputText: Image {
+        Image(uiImage: UIImage(named: "inputText") ?? UIImage())
     }
 }
