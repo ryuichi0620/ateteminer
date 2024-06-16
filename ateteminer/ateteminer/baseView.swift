@@ -9,7 +9,17 @@ import SwiftUI
 
 struct baseView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image.genie
+                .resizable()
+                .scaledToFit()
+                .padding(.horizontal, 50)
+                
+            Image.showText
+            Image.inputText
+        }
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        .background(Color.background)
     }
 }
 
