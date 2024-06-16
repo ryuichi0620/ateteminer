@@ -108,9 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				959E6FA62C17284F003EF5D2 /* ateteminerApp.swift */,
-				959E6FA82C17284F003EF5D2 /* ContentView.swift */,
-				959F1B522C1ED4CC00FDA157 /* baseView.swift */,
-				959E6FAF2C172851003EF5D2 /* Persistence.swift */,
+				959F1B552C1EE2E500FDA157 /* View */,
+				959F1B542C1EE2D100FDA157 /* Model */,
 				959E6FD82C172B39003EF5D2 /* Resources */,
 				959E6FD52C172A80003EF5D2 /* extension */,
 				959E6FAC2C172851003EF5D2 /* Preview Content */,
@@ -161,6 +160,23 @@
 				959E6FB12C172851003EF5D2 /* ateteminer.xcdatamodeld */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		959F1B542C1EE2D100FDA157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				959E6FAF2C172851003EF5D2 /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		959F1B552C1EE2E500FDA157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				959E6FA82C17284F003EF5D2 /* ContentView.swift */,
+				959F1B522C1ED4CC00FDA157 /* baseView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
