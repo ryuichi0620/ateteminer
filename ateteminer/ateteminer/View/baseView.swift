@@ -45,6 +45,9 @@ struct baseView: View {
     }
 }
 
-#Preview {
-    baseView()
+struct baseView_Previews: PreviewProvider {
+    static var previews: some View {
+        baseView()
+    }
 }
+
