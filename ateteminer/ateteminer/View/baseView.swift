@@ -28,7 +28,7 @@ struct baseView: View {
                     .frame(maxWidth: .infinity, maxHeight: 20, alignment: .leading)
                 Image.showText
                 Spacer().frame(height: 30)
-                Image.inputText
+                inputTextView()
                 Button(action: {
                     print("tapped")
                 }, label: {

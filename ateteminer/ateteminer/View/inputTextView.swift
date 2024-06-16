@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct inputTextView: View {
+    
+    @State var inputText = ""
+    
+    var inputTextBackground: Image = Image.inputText
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            inputTextBackground
+            HStack {
+                TextField("質問を入力してください", text: $inputText, prompt: Text("質問を入力してください...").foregroundStyle(Color.inputTextPlaceholder).font(.dotInputTextPlaceholder))
+                ZStack {
+                    Image.sendButton
+                    Text("送信")
+                        .font(.dotInputTextPlaceholder)
+                        .foregroundStyle(Color.white)
+                }
+            }.padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 5))
+        }
+        .backgroundStyle(Color.background)
     }
 }
 

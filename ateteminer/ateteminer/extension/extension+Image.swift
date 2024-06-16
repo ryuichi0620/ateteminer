@@ -21,4 +21,8 @@ extension Image {
     static var inputText: Image {
         Image(uiImage: UIImage(named: "inputText") ?? UIImage())
     }
+    
+    static var sendButton: Image {
+        Image(uiImage: UIImage(named: "sendButton") ?? UIImage())
+    }
 }
