@@ -11,9 +11,7 @@ struct baseView: View {
     var body: some View {
         ZStack {
             VStack {
-                Text("私に質問してください。")
-                    .font(.dotSerif)
-                    .frame(height: 100)
+                GenieSerifTextView()
                 
                 Image.genie
                     .resizable()
@@ -29,6 +27,7 @@ struct baseView: View {
                 QuestionTextView()
                 
                 Spacer().frame(height: 30)
+                
                 inputTextView()
                 FinalAnswerButton()
             }
