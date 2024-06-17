@@ -21,6 +21,7 @@
 		959E6FE02C1739DD003EF5D2 /* extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */; };
 		959F1B532C1ED4CC00FDA157 /* baseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B522C1ED4CC00FDA157 /* baseView.swift */; };
 		959F1B5B2C1EE52300FDA157 /* inputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5A2C1EE52300FDA157 /* inputTextView.swift */; };
+		959F1B5D2C20F5A400FDA157 /* QuestionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Image.swift"; sourceTree = "<group>"; };
 		959F1B522C1ED4CC00FDA157 /* baseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseView.swift; sourceTree = "<group>"; };
 		959F1B5A2C1EE52300FDA157 /* inputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputTextView.swift; sourceTree = "<group>"; };
+		959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				959F1B5A2C1EE52300FDA157 /* inputTextView.swift */,
+				959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */,
 				959E6FA82C17284F003EF5D2 /* ContentView.swift */,
 				959F1B522C1ED4CC00FDA157 /* baseView.swift */,
 			);
@@ -313,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959F1B5D2C20F5A400FDA157 /* QuestionTextView.swift in Sources */,
 				959E6FB02C172851003EF5D2 /* Persistence.swift in Sources */,
 				959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */,
 				959F1B532C1ED4CC00FDA157 /* baseView.swift in Sources */,
