@@ -18,6 +18,7 @@ struct inputTextView: View {
             inputTextBackground
             HStack {
                 TextField("質問を入力してください", text: $inputText, prompt: Text("質問を入力してください...").foregroundStyle(Color.inputTextPlaceholder).font(.dotInputTextPlaceholder))
+                    .font(.dotInputTextPlaceholder)
                 ZStack {
                     Image.sendButton
                     Text("送信")
