@@ -30,14 +30,7 @@ struct baseView: View {
                 
                 Spacer().frame(height: 30)
                 inputTextView()
-                Button(action: {
-                    print("tapped")
-                }, label: {
-                    Text("最終回答にすすむ")
-                        .font(.dotFinalQuestion)
-                        .foregroundStyle(Color.white)
-                        .underline()
-                })
+                FinalAnswerButton()
             }
             .frame(width: UIScreen.main.bounds.width - 100, height: UIScreen.main.bounds.height)
         }
