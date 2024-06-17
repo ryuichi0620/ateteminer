@@ -1,5 +1,5 @@
 //
-//  inputTextView.swift
+//  InputTextView.swift
 //  ateteminer
 //
 //  Created by 江越瑠一 on 2024/06/16.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct inputTextView: View {
+struct InputTextView: View {
     
     @State var inputText = ""
     
@@ -39,7 +39,7 @@ struct inputTextView: View {
 }
 
 #Preview {
-    inputTextView()
+    InputTextView()
 }
 
 struct SlightlyHighlightedButtonStyle: ButtonStyle {

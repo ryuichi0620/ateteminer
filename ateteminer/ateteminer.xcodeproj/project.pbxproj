@@ -19,8 +19,8 @@
 		959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FD62C172A94003EF5D2 /* extension+Fonts.swift */; };
 		959E6FDA2C172B57003EF5D2 /* DotGothic16-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */; };
 		959E6FE02C1739DD003EF5D2 /* extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */; };
-		959F1B532C1ED4CC00FDA157 /* baseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B522C1ED4CC00FDA157 /* baseView.swift */; };
-		959F1B5B2C1EE52300FDA157 /* inputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5A2C1EE52300FDA157 /* inputTextView.swift */; };
+		959F1B532C1ED4CC00FDA157 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B522C1ED4CC00FDA157 /* BaseView.swift */; };
+		959F1B5B2C1EE52300FDA157 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5A2C1EE52300FDA157 /* InputTextView.swift */; };
 		959F1B5D2C20F5A400FDA157 /* QuestionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */; };
 		959F1B5F2C20FA4E00FDA157 /* FinalAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5E2C20FA4E00FDA157 /* FinalAnswerButton.swift */; };
 		959F1B612C20FAA900FDA157 /* GenieSerifTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B602C20FAA900FDA157 /* GenieSerifTextView.swift */; };
@@ -61,8 +61,8 @@
 		959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DotGothic16-Regular.ttf"; sourceTree = "<group>"; };
 		959E6FDE2C173018003EF5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Image.swift"; sourceTree = "<group>"; };
-		959F1B522C1ED4CC00FDA157 /* baseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseView.swift; sourceTree = "<group>"; };
-		959F1B5A2C1EE52300FDA157 /* inputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputTextView.swift; sourceTree = "<group>"; };
+		959F1B522C1ED4CC00FDA157 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		959F1B5A2C1EE52300FDA157 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTextView.swift; sourceTree = "<group>"; };
 		959F1B5E2C20FA4E00FDA157 /* FinalAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAnswerButton.swift; sourceTree = "<group>"; };
 		959F1B602C20FAA900FDA157 /* GenieSerifTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieSerifTextView.swift; sourceTree = "<group>"; };
@@ -183,10 +183,10 @@
 		959F1B552C1EE2E500FDA157 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				959F1B5A2C1EE52300FDA157 /* inputTextView.swift */,
+				959F1B5A2C1EE52300FDA157 /* InputTextView.swift */,
 				959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */,
 				959E6FA82C17284F003EF5D2 /* ContentView.swift */,
-				959F1B522C1ED4CC00FDA157 /* baseView.swift */,
+				959F1B522C1ED4CC00FDA157 /* BaseView.swift */,
 				959F1B622C20FAFB00FDA157 /* QuestionNumberView.swift */,
 				959F1B602C20FAA900FDA157 /* GenieSerifTextView.swift */,
 				959F1B5E2C20FA4E00FDA157 /* FinalAnswerButton.swift */,
@@ -329,12 +329,12 @@
 				959F1B5D2C20F5A400FDA157 /* QuestionTextView.swift in Sources */,
 				959E6FB02C172851003EF5D2 /* Persistence.swift in Sources */,
 				959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */,
-				959F1B532C1ED4CC00FDA157 /* baseView.swift in Sources */,
+				959F1B532C1ED4CC00FDA157 /* BaseView.swift in Sources */,
 				959E6FB32C172851003EF5D2 /* ateteminer.xcdatamodeld in Sources */,
 				959E6FE02C1739DD003EF5D2 /* extension+Image.swift in Sources */,
 				959F1B632C20FAFB00FDA157 /* QuestionNumberView.swift in Sources */,
 				959E6FA92C17284F003EF5D2 /* ContentView.swift in Sources */,
-				959F1B5B2C1EE52300FDA157 /* inputTextView.swift in Sources */,
+				959F1B5B2C1EE52300FDA157 /* InputTextView.swift in Sources */,
 				959F1B612C20FAA900FDA157 /* GenieSerifTextView.swift in Sources */,
 				959E6FA72C17284F003EF5D2 /* ateteminerApp.swift in Sources */,
 			);
