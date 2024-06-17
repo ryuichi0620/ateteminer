@@ -40,7 +40,9 @@ struct BaseView: View {
     }
 }
 
-#Preview {
-    BaseView()
+struct baseView_Previews: PreviewProvider {
+    static var previews: some View {
+        BaseView()
+    }
 }
 
