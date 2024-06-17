@@ -18,7 +18,6 @@ struct baseView: View {
                 Image.genie
                     .resizable()
                     .scaledToFit()
-//                    .padding(.horizontal, 50)
                 
                 Spacer().frame(height: 60)
                 
@@ -26,7 +25,9 @@ struct baseView: View {
                     .font(.dotQuestionNumber)
                     .foregroundStyle(Color.white)
                     .frame(maxWidth: .infinity, maxHeight: 20, alignment: .leading)
-                Image.showText
+                
+                QuestionTextView()
+                
                 Spacer().frame(height: 30)
                 inputTextView()
                 Button(action: {
@@ -45,9 +46,7 @@ struct baseView: View {
     }
 }
 
-struct baseView_Previews: PreviewProvider {
-    static var previews: some View {
-        baseView()
-    }
+#Preview {
+    baseView()
 }
 

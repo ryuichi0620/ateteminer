@@ -9,7 +9,14 @@ import SwiftUI
 
 struct QuestionTextView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image.showText
+            Text("高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？")
+                .font(.dotFinalQuestion)
+                .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+                .lineLimit(4) // テキストを1行に制限
+                .truncationMode(.tail) // はみ出した部分を省略記号にする
+        }
     }
 }
 
