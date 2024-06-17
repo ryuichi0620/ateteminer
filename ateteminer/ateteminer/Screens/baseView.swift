@@ -19,10 +19,7 @@ struct baseView: View {
                 
                 Spacer().frame(height: 60)
                 
-                Text("Q1")
-                    .font(.dotQuestionNumber)
-                    .foregroundStyle(Color.white)
-                    .frame(maxWidth: .infinity, maxHeight: 20, alignment: .leading)
+                QuestionNumberView()
                 
                 QuestionTextView()
                 
