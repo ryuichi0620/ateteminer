@@ -15,6 +15,8 @@ struct BaseView: View {
     private let inputTextView = InputTextView()
     private let finalAnswerButton = FinalAnswerButton()
     
+    private var baseViewModel: BaseViewModel!
+    
     var body: some View {
         ZStack {
             VStack {
@@ -37,6 +39,10 @@ struct BaseView: View {
         }
         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         .background(Color.background)
+    }
+    
+    mutating func configure(baseViewModel: BaseViewModel) {
+        self.baseViewModel = baseViewModel
     }
 }
 
