@@ -9,9 +9,9 @@ import Foundation
 
 final class BaseViewModel: ObservableObject {
     
-    var genieSerifText = "私に質問してください"
-    var questionNumberText = "Q1"
-    var questionText = "高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？"
-    var finalAnswerText = "最終回答にすすむ"
+    @Published var genieSerifText = "私に質問してください"
+    @Published var questionNumberText = "Q1"
+    @Published var questionText = "高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？"
+    @Published var finalAnswerText = "最終回答にすすむ"
     
 }
