@@ -15,7 +15,7 @@ struct BaseView: View {
     private let inputTextView = InputTextView()
     private let finalAnswerButton = FinalAnswerButton()
     
-    private var baseViewModel: BaseViewModel!
+    @StateObject private var baseViewModel = BaseViewModel()
     
     var body: some View {
         ZStack {
@@ -41,9 +41,7 @@ struct BaseView: View {
         .background(Color.background)
     }
     
-    mutating func configure(baseViewModel: BaseViewModel) {
-        self.baseViewModel = baseViewModel
-    }
+    
 }
 
 struct baseView_Previews: PreviewProvider {

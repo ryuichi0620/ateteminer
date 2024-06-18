@@ -11,12 +11,10 @@ import CoreData
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     
-    private var baseViewModel = BaseViewModel()
-    @State private var baseView = BaseView()
+    private var baseView = BaseView()
 
     var body: some View {
-        baseView.configure(baseViewModel: baseViewModel)
-        return baseView
+        baseView
     }
     
 }

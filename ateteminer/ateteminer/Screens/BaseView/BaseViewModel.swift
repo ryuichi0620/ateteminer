@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class BaseViewModel {
+final class BaseViewModel: ObservableObject {
     
     var genieSerifText = "私に質問してください"
     var questionNumberText = "Q1"
