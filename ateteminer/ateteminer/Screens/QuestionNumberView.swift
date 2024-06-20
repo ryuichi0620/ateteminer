@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct QuestionNumberView: View {
+    
+    @Binding var numberText: String
+    
     var body: some View {
-        Text("Q1")
+        Text(numberText)
             .font(.dotQuestionNumber)
             .foregroundStyle(Color.white)
             .frame(maxWidth: .infinity, maxHeight: 20, alignment: .leading)
     }
-}
-
-#Preview {
-    QuestionNumberView()
 }

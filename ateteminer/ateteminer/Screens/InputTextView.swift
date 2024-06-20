@@ -38,10 +38,6 @@ struct InputTextView: View {
     }
 }
 
-#Preview {
-    InputTextView()
-}
-
 struct SlightlyHighlightedButtonStyle: ButtonStyle {
     var normalColor: Color
     var highlightColor: Color

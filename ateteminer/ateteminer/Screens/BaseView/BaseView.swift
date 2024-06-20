@@ -9,13 +9,13 @@ import SwiftUI
 
 struct BaseView: View {
     
-    private let genieSerifTextView = GenieSerifTextView()
-    private let questionNumberView = QuestionNumberView()
-    private let questionTextView = QuestionTextView()
-    private let inputTextView = InputTextView()
-    private let finalAnswerButton = FinalAnswerButton()
-    
     @StateObject private var baseViewModel = BaseViewModel()
+    
+    @State private var genieSerifTextView: GenieSerifTextView!
+    @State private var questionNumberView: QuestionNumberView!
+    @State private var questionTextView: QuestionTextView!
+    @State private var inputTextView: InputTextView!
+    @State private var finalAnswerButton: FinalAnswerButton!
     
     var body: some View {
         ZStack {
@@ -39,9 +39,13 @@ struct BaseView: View {
         }
         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         .background(Color.background)
+        .onAppear {
+            genieSerifTextView = GenieSerifTextView(text: $baseViewModel.genieSerifText)
+            questionNumberView = QuestionNumberView(numberText: $baseViewModel.questionNumberText)
+            questionTextView = QuestionTextView(text: $baseViewModel.questionText)
+            
+        }
     }
-    
-    
 }
 
 struct baseView_Previews: PreviewProvider {

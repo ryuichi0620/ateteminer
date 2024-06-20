@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct GenieSerifTextView: View {
+    
+    @Binding var text: String
+    
     var body: some View {
-        Text("私に質問してください。")
+        Text(text)
             .font(.dotSerif)
             .frame(height: 100)
     }
-}
-
-#Preview {
-    GenieSerifTextView()
 }
