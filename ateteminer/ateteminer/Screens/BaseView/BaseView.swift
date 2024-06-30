@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct BaseView: View {
     
@@ -21,7 +22,7 @@ struct BaseView: View {
         ZStack {
             VStack {
                 genieSerifTextView
-                Image.genie
+                Image.genieImage
                     .resizable()
                     .scaledToFit()
                 
@@ -43,7 +44,11 @@ struct BaseView: View {
             genieSerifTextView = GenieSerifTextView(text: $baseViewModel.genieSerifText)
             questionNumberView = QuestionNumberView(numberText: $baseViewModel.questionNumberText)
             questionTextView = QuestionTextView(text: $baseViewModel.questionText)
-            
+            inputTextView = InputTextView(action: { text in
+                baseViewModel.writeQuestionText(text)
+            })
+            finalAnswerButton = FinalAnswerButton { print("tapped") }
+            baseViewModel.questionText = "start"
         }
     }
 }

@@ -11,7 +11,8 @@ struct InputTextView: View {
     
     @State var inputText = ""
     
-    var inputTextBackground: Image = Image.inputText
+    var inputTextBackground: Image = Image.inputTextImage
+    var action: (String) -> Void
     
     var body: some View {
         ZStack {
@@ -21,10 +22,10 @@ struct InputTextView: View {
                     .font(.dotInputTextPlaceholder)
                 
                 Button(action: {
-                    print("tapped")
+                    action(inputText)
                 }, label: {
                     ZStack {
-                        Image.sendButton
+                        Image.sendButtonImage
                         Text("送信")
                             .font(.dotInputTextPlaceholder)
                             .foregroundStyle(Color.white)

@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct FinalAnswerButton: View {
+    
+    var action: () -> Void
+    
     var body: some View {
         Button(action: {
-            print("tapped")
+            action()
         }, label: {
             Text("最終回答にすすむ")
                 .font(.dotFinalQuestion)
@@ -20,6 +23,3 @@ struct FinalAnswerButton: View {
     }
 }
 
-#Preview {
-    FinalAnswerButton()
-}

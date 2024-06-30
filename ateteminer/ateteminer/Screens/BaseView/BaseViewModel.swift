@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Combine
 
 final class BaseViewModel: ObservableObject {
     
@@ -14,4 +15,7 @@ final class BaseViewModel: ObservableObject {
     @Published var questionText = "高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？高さは10M以内ですか？"
     @Published var finalAnswerText = "最終回答にすすむ"
     
+    lazy var writeQuestionText: (String) -> Void = { [weak self] text in
+        self?.questionText = text
+    }
 }

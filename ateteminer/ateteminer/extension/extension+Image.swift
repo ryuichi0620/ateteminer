@@ -10,19 +10,19 @@ import SwiftUI
 
 extension Image {
     
-    static var genie: Image {
+    static var genieImage: Image {
         Image(uiImage: UIImage(named: "genie") ?? UIImage())
     }
     
-    static var showText: Image {
+    static var showTextImage: Image {
         Image(uiImage: UIImage(named: "showText") ?? UIImage())
     }
     
-    static var inputText: Image {
+    static var inputTextImage: Image {
         Image(uiImage: UIImage(named: "inputText") ?? UIImage())
     }
     
-    static var sendButton: Image {
+    static var sendButtonImage: Image {
         Image(uiImage: UIImage(named: "sendButton") ?? UIImage())
     }
 }
