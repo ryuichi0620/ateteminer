@@ -10,41 +10,29 @@ import SwiftUI
 struct BaseView: View {
     
     @StateObject private var baseViewModel = BaseViewModel()
-    
-    @State private var genieSerifTextView: GenieSerifTextView!
-    @State private var questionNumberView: QuestionNumberView!
-    @State private var questionTextView: QuestionTextView!
-    @State private var inputTextView: InputTextView!
-    @State private var finalAnswerButton: FinalAnswerButton!
-    
+        
     var body: some View {
         ZStack {
             VStack {
-                genieSerifTextView
+                GenieSerifTextView(text: $baseViewModel.genieSerifText)
                 Image.genie
                     .resizable()
                     .scaledToFit()
                 
                 Spacer().frame(height: 60)
                 
-                questionNumberView
-                questionTextView
+                QuestionNumberView(numberText: $baseViewModel.questionNumberText)
+                QuestionTextView(text: $baseViewModel.questionText)
                 
                 Spacer().frame(height: 30)
                 
-                inputTextView
-                finalAnswerButton
+                InputTextView(questionText: $baseViewModel.questionText)
+                FinalAnswerButton()
             }
             .frame(width: UIScreen.main.bounds.width - 100, height: UIScreen.main.bounds.height)
         }
         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         .background(Color.background)
-        .onAppear {
-            genieSerifTextView = GenieSerifTextView(text: $baseViewModel.genieSerifText)
-            questionNumberView = QuestionNumberView(numberText: $baseViewModel.questionNumberText)
-            questionTextView = QuestionTextView(text: $baseViewModel.questionText)
-            
-        }
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9500D8082C34BE3F005380EC /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500D8072C34BE3F005380EC /* SampleView.swift */; };
 		959E6FA72C17284F003EF5D2 /* ateteminerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FA62C17284F003EF5D2 /* ateteminerApp.swift */; };
 		959E6FA92C17284F003EF5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FA82C17284F003EF5D2 /* ContentView.swift */; };
 		959E6FAB2C172851003EF5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E6FAA2C172851003EF5D2 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9500D8072C34BE3F005380EC /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 		959E6FA32C17284F003EF5D2 /* ateteminer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ateteminer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959E6FA62C17284F003EF5D2 /* ateteminerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ateteminerApp.swift; sourceTree = "<group>"; };
 		959E6FA82C17284F003EF5D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				959F1B622C20FAFB00FDA157 /* QuestionNumberView.swift */,
 				959F1B602C20FAA900FDA157 /* GenieSerifTextView.swift */,
 				959F1B5E2C20FA4E00FDA157 /* FinalAnswerButton.swift */,
+				9500D8072C34BE3F005380EC /* SampleView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 			files = (
 				959F1B5F2C20FA4E00FDA157 /* FinalAnswerButton.swift in Sources */,
 				959F1B5D2C20F5A400FDA157 /* QuestionTextView.swift in Sources */,
+				9500D8082C34BE3F005380EC /* SampleView.swift in Sources */,
 				959E6FB02C172851003EF5D2 /* Persistence.swift in Sources */,
 				959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */,
 				959F1B532C1ED4CC00FDA157 /* BaseView.swift in Sources */,

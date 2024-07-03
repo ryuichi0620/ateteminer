@@ -10,6 +10,7 @@ import SwiftUI
 struct InputTextView: View {
     
     @State var inputText = ""
+    @Binding var questionText: String
     
     var inputTextBackground: Image = Image.inputText
     
@@ -21,7 +22,9 @@ struct InputTextView: View {
                     .font(.dotInputTextPlaceholder)
                 
                 Button(action: {
-                    print("tapped")
+                    questionText = inputText
+                    inputText = ""
+                    
                 }, label: {
                     ZStack {
                         Image.sendButton
