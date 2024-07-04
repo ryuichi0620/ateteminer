@@ -11,6 +11,7 @@ struct InputTextView: View {
     
     @State var inputText = ""
     @Binding var questionText: String
+    var placeholder: String
     
     var inputTextBackground: Image = Image.inputText
     
@@ -18,26 +19,34 @@ struct InputTextView: View {
         ZStack {
             inputTextBackground
             HStack {
-                TextField("質問を入力してください", text: $inputText, prompt: Text("質問を入力してください...").foregroundStyle(Color.inputTextPlaceholder).font(.dotInputTextPlaceholder))
+                TextField("", text: $inputText, prompt: Text(placeholder).foregroundStyle(Color.inputTextPlaceholder).font(.dotInputTextPlaceholder))
                     .font(.dotInputTextPlaceholder)
                 
                 Button(action: {
-                    questionText = inputText
-                    inputText = ""
-                    
+                    sendMessage()
                 }, label: {
-                    ZStack {
-                        Image.sendButton
-                        Text("送信")
-                            .font(.dotInputTextPlaceholder)
-                            .foregroundStyle(Color.white)
-                    }
+                    sendButton
                 })
                 .buttonStyle(SlightlyHighlightedButtonStyle(normalColor: .clear, highlightColor: Color.gray.opacity(0.2))) // 透明背景とグレーのハイライト
                 
             }.padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 5))
         }
         .backgroundStyle(Color.background)
+    }
+    
+    var sendButton: some View {
+        ZStack {
+            Image.sendButton
+            Text("送信")
+                .font(.dotInputTextPlaceholder)
+                .foregroundStyle(Color.white)
+        }
+    }
+    
+    func sendMessage() {
+        UIApplication.shared.endEditing(true)
+        questionText = inputText
+        inputText = ""
     }
 }
 

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GenieSerifTextView: View {
     
-    @Binding var text: String
+    var text: String
     
     var body: some View {
         Text(text)

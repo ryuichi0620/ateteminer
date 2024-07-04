@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct FinalAnswerButton: View {
+    
+    @Binding var answerMode: BaseViewModel.AnswerMode
+    @Binding var answerText: String
+    
     var body: some View {
         Button(action: {
-            print("tapped")
+            answerMode = (answerMode == .answer) ? .input(answerText) : .answer
         }, label: {
-            Text("最終回答にすすむ")
+            Text(answerMode.finalAnswerButtonText)
                 .font(.dotFinalQuestion)
                 .foregroundStyle(Color.white)
                 .underline()
         })
     }
-}
-
-#Preview {
-    FinalAnswerButton()
 }
