@@ -10,9 +10,10 @@ import SwiftUI
 struct QuestionNumberView: View {
     
     @Binding var numberText: String
+    var answerMode: BaseViewModel.AnswerMode
     
     var body: some View {
-        Text(numberText)
+        Text((answerMode == .answer) ? "" : numberText)
             .font(.dotQuestionNumber)
             .foregroundStyle(Color.white)
             .frame(maxWidth: .infinity, maxHeight: 20, alignment: .leading)

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9500D8082C34BE3F005380EC /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500D8072C34BE3F005380EC /* SampleView.swift */; };
+		9500D80A2C360E39005380EC /* Extension+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500D8092C360E39005380EC /* Extension+UIApplication.swift */; };
+		9500D80C2C361009005380EC /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500D80B2C361009005380EC /* KeyboardResponder.swift */; };
 		959E6FA72C17284F003EF5D2 /* ateteminerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FA62C17284F003EF5D2 /* ateteminerApp.swift */; };
 		959E6FA92C17284F003EF5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FA82C17284F003EF5D2 /* ContentView.swift */; };
 		959E6FAB2C172851003EF5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E6FAA2C172851003EF5D2 /* Assets.xcassets */; };
@@ -17,9 +19,9 @@
 		959E6FBD2C172851003EF5D2 /* ateteminerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FBC2C172851003EF5D2 /* ateteminerTests.swift */; };
 		959E6FC72C172851003EF5D2 /* ateteminerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FC62C172851003EF5D2 /* ateteminerUITests.swift */; };
 		959E6FC92C172851003EF5D2 /* ateteminerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FC82C172851003EF5D2 /* ateteminerUITestsLaunchTests.swift */; };
-		959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FD62C172A94003EF5D2 /* extension+Fonts.swift */; };
+		959E6FD72C172A94003EF5D2 /* Extension+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FD62C172A94003EF5D2 /* Extension+Fonts.swift */; };
 		959E6FDA2C172B57003EF5D2 /* DotGothic16-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */; };
-		959E6FE02C1739DD003EF5D2 /* extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */; };
+		959E6FE02C1739DD003EF5D2 /* Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FDF2C1739DD003EF5D2 /* Extension+Image.swift */; };
 		959F1B532C1ED4CC00FDA157 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B522C1ED4CC00FDA157 /* BaseView.swift */; };
 		959F1B5B2C1EE52300FDA157 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5A2C1EE52300FDA157 /* InputTextView.swift */; };
 		959F1B5D2C20F5A400FDA157 /* QuestionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */; };
@@ -48,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		9500D8072C34BE3F005380EC /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		9500D8092C360E39005380EC /* Extension+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIApplication.swift"; sourceTree = "<group>"; };
+		9500D80B2C361009005380EC /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		959E6FA32C17284F003EF5D2 /* ateteminer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ateteminer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959E6FA62C17284F003EF5D2 /* ateteminerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ateteminerApp.swift; sourceTree = "<group>"; };
 		959E6FA82C17284F003EF5D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,10 +64,10 @@
 		959E6FC22C172851003EF5D2 /* ateteminerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ateteminerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		959E6FC62C172851003EF5D2 /* ateteminerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ateteminerUITests.swift; sourceTree = "<group>"; };
 		959E6FC82C172851003EF5D2 /* ateteminerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ateteminerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		959E6FD62C172A94003EF5D2 /* extension+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Fonts.swift"; sourceTree = "<group>"; };
+		959E6FD62C172A94003EF5D2 /* Extension+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Fonts.swift"; sourceTree = "<group>"; };
 		959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DotGothic16-Regular.ttf"; sourceTree = "<group>"; };
 		959E6FDE2C173018003EF5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Image.swift"; sourceTree = "<group>"; };
+		959E6FDF2C1739DD003EF5D2 /* Extension+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Image.swift"; sourceTree = "<group>"; };
 		959F1B522C1ED4CC00FDA157 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		959F1B5A2C1EE52300FDA157 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTextView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9500D80D2C361483005380EC /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				959F1B5A2C1EE52300FDA157 /* InputTextView.swift */,
+				959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */,
+				959E6FA82C17284F003EF5D2 /* ContentView.swift */,
+				959F1B622C20FAFB00FDA157 /* QuestionNumberView.swift */,
+				959F1B602C20FAA900FDA157 /* GenieSerifTextView.swift */,
+				959F1B5E2C20FA4E00FDA157 /* FinalAnswerButton.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
 		959E6F9A2C17284F003EF5D2 = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +142,7 @@
 				959F1B552C1EE2E500FDA157 /* Screens */,
 				959F1B542C1EE2D100FDA157 /* Model */,
 				959E6FD82C172B39003EF5D2 /* Resources */,
-				959E6FD52C172A80003EF5D2 /* extension */,
+				959E6FD52C172A80003EF5D2 /* Extension */,
 				959E6FAC2C172851003EF5D2 /* Preview Content */,
 			);
 			path = ateteminer;
@@ -156,13 +173,14 @@
 			path = ateteminerUITests;
 			sourceTree = "<group>";
 		};
-		959E6FD52C172A80003EF5D2 /* extension */ = {
+		959E6FD52C172A80003EF5D2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				959E6FD62C172A94003EF5D2 /* extension+Fonts.swift */,
-				959E6FDF2C1739DD003EF5D2 /* extension+Image.swift */,
+				959E6FD62C172A94003EF5D2 /* Extension+Fonts.swift */,
+				959E6FDF2C1739DD003EF5D2 /* Extension+Image.swift */,
+				9500D8092C360E39005380EC /* Extension+UIApplication.swift */,
 			);
-			path = extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		959E6FD82C172B39003EF5D2 /* Resources */ = {
@@ -180,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				959E6FAF2C172851003EF5D2 /* Persistence.swift */,
+				9500D80B2C361009005380EC /* KeyboardResponder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,13 +206,8 @@
 		959F1B552C1EE2E500FDA157 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				9500D80D2C361483005380EC /* Quiz */,
 				959F1B652C20FD1D00FDA157 /* BaseView */,
-				959F1B5A2C1EE52300FDA157 /* InputTextView.swift */,
-				959F1B5C2C20F5A400FDA157 /* QuestionTextView.swift */,
-				959E6FA82C17284F003EF5D2 /* ContentView.swift */,
-				959F1B622C20FAFB00FDA157 /* QuestionNumberView.swift */,
-				959F1B602C20FAA900FDA157 /* GenieSerifTextView.swift */,
-				959F1B5E2C20FA4E00FDA157 /* FinalAnswerButton.swift */,
 				9500D8072C34BE3F005380EC /* SampleView.swift */,
 			);
 			path = Screens;
@@ -343,10 +357,12 @@
 				959F1B5D2C20F5A400FDA157 /* QuestionTextView.swift in Sources */,
 				9500D8082C34BE3F005380EC /* SampleView.swift in Sources */,
 				959E6FB02C172851003EF5D2 /* Persistence.swift in Sources */,
-				959E6FD72C172A94003EF5D2 /* extension+Fonts.swift in Sources */,
+				9500D80A2C360E39005380EC /* Extension+UIApplication.swift in Sources */,
+				9500D80C2C361009005380EC /* KeyboardResponder.swift in Sources */,
+				959E6FD72C172A94003EF5D2 /* Extension+Fonts.swift in Sources */,
 				959F1B532C1ED4CC00FDA157 /* BaseView.swift in Sources */,
 				959E6FB32C172851003EF5D2 /* ateteminer.xcdatamodeld in Sources */,
-				959E6FE02C1739DD003EF5D2 /* extension+Image.swift in Sources */,
+				959E6FE02C1739DD003EF5D2 /* Extension+Image.swift in Sources */,
 				959F1B692C20FD4E00FDA157 /* BaseViewModel.swift in Sources */,
 				959F1B632C20FAFB00FDA157 /* QuestionNumberView.swift in Sources */,
 				959E6FA92C17284F003EF5D2 /* ContentView.swift in Sources */,
