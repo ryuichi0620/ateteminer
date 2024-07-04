@@ -10,6 +10,7 @@
 		9500D8082C34BE3F005380EC /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500D8072C34BE3F005380EC /* SampleView.swift */; };
 		9500D80A2C360E39005380EC /* Extension+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500D8092C360E39005380EC /* Extension+UIApplication.swift */; };
 		9500D80C2C361009005380EC /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500D80B2C361009005380EC /* KeyboardResponder.swift */; };
+		9500D80F2C3625A2005380EC /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9500D80E2C3625A2005380EC /* Config.xcconfig */; };
 		959E6FA72C17284F003EF5D2 /* ateteminerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FA62C17284F003EF5D2 /* ateteminerApp.swift */; };
 		959E6FA92C17284F003EF5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E6FA82C17284F003EF5D2 /* ContentView.swift */; };
 		959E6FAB2C172851003EF5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959E6FAA2C172851003EF5D2 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		9500D8072C34BE3F005380EC /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 		9500D8092C360E39005380EC /* Extension+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIApplication.swift"; sourceTree = "<group>"; };
 		9500D80B2C361009005380EC /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		9500D80E2C3625A2005380EC /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		959E6FA32C17284F003EF5D2 /* ateteminer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ateteminer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959E6FA62C17284F003EF5D2 /* ateteminerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ateteminerApp.swift; sourceTree = "<group>"; };
 		959E6FA82C17284F003EF5D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		959E6FD82C172B39003EF5D2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9500D80E2C3625A2005380EC /* Config.xcconfig */,
 				959E6FDE2C173018003EF5D2 /* Info.plist */,
 				959E6FD92C172B57003EF5D2 /* DotGothic16-Regular.ttf */,
 				959E6FAA2C172851003EF5D2 /* Assets.xcassets */,
@@ -326,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9500D80F2C3625A2005380EC /* Config.xcconfig in Resources */,
 				959E6FAE2C172851003EF5D2 /* Preview Assets.xcassets in Resources */,
 				959E6FDA2C172B57003EF5D2 /* DotGothic16-Regular.ttf in Resources */,
 				959E6FAB2C172851003EF5D2 /* Assets.xcassets in Resources */,
