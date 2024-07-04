@@ -28,7 +28,7 @@ extension BaseViewModel {
                     serif
                 case .answer:
                     "さあ、当ててください。\n私が思い浮かべているものはなんでしょう。"
-            }
+                }
         }
         
         var placeholder: String {
